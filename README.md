@@ -20,7 +20,7 @@
 
 ### 🚀 Cara Menginstal
 
-1.  Unduh modul **Blackout-X-Performance** dari [https://github.com/blackoutnextproject/Blackout-X-Perf/releases/download/0.3.0/Blackout-X-Perf-Release.Multivers.zip]
+1.  Unduh modul **Blackout-X-Performance** dari [https://github.com/blackoutnextproject/Blackout-X-Perf/releases/download/0.3.0/Blackout-X-Perf-Release.Multivers.zip](https://github.com/blackoutnextproject).
 2.  Buka aplikasi Magisk Manager atau KernelSU Manager.
 3.  Pergi ke bagian **Modul** dan pilih **Instal dari penyimpanan**.
 4.  Pilih file `.zip` dari modul yang sudah kamu unduh.
