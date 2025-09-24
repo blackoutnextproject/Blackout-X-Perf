@@ -1,4 +1,4 @@
-# Blackout-X-Performance ☠️
+[# Blackout-X-Performance ☠️
 
 ![Blackout-X-Performance Banner](https://raw.githubusercontent.com/blackoutnextproject/Blackout-Project-Banner/main/Blackout-banner.jpg)
 
@@ -49,3 +49,4 @@ Setelah modul terinstal, kamu tidak perlu melakukan apa pun. **Blackout-X-Perfor
 ### 📜 Lisensi
 
 Modul ini dirilis di bawah lisensi [MIT License](https://opensource.org/licenses/MIT).
+](https://raw.githubusercontent.com/blackoutnextproject/Blackout-Project-Banner/main/Blackout-banner.jpg)
