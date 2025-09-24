@@ -46,12 +46,6 @@ Setelah modul terinstal, kamu tidak perlu melakukan apa pun. **Blackout-X-Perfor
 
 ---
 
-### 🤝 Kontribusi
-
-Proyek ini bersifat *open-source*. Kontribusi dan saran sangat terbuka. Jika kamu ingin berkontribusi, silakan buat *pull request* di [https://github.com/blackoutnextproject/Blackout-X-Perf](https://github.com/blackoutnextproject).
-
----
-
 ### 📜 Lisensi
 
 Modul ini dirilis di bawah lisensi [MIT License](https://opensource.org/licenses/MIT).
