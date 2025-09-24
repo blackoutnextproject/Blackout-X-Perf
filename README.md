@@ -1,4 +1,4 @@
-[# Blackout-X-Performance ☠️
+# Blackout-X-Performance ☠️
 
 ![Blackout-X-Performance Banner](https://raw.githubusercontent.com/blackoutnextproject/Blackout-Project-Banner/main/Blackout-banner.jpg)
 
@@ -13,7 +13,6 @@
 * **Deteksi Game Otomatis**: Secara cerdas mendeteksi game yang sedang berjalan menggunakan Game Manager Service Android. Tidak perlu lagi memasukkan nama *package* secara manual.
 * **Optimalisasi Grafis (SkiaVulkan)**: Mengubah *renderer* grafis ke **SkiaVulkan** untuk potensi peningkatan FPS dan responsivitas UI.
 * **Downscale Resolusi**: Menurunkan resolusi layar saat bermain game untuk mengurangi beban kerja GPU, yang menghasilkan *frame rate* yang lebih stabil dan tinggi.
-* **Tweak I/O Scheduler**: Mengatur I/O *scheduler* ke **Kyber** saat bermain game untuk mengurangi latensi disk, mempercepat waktu *loading*, dan mencegah *stuttering*.
 * **Mode Seimbang**: Mengembalikan semua pengaturan ke mode seimbang (`bfq` I/O, resolusi normal) setelah game ditutup.
 * **Kompatibilitas Luas**: Mendukung Magisk, Kitsune, KernelSU, KernelSUNext, dan Apatch.
 
@@ -21,7 +20,7 @@
 
 ### 🚀 Cara Menginstal
 
-1.  Unduh modul **Blackout-X-Performance** dari [tautan rilis](link_ke_rilis_github_mu).
+1.  Unduh modul **Blackout-X-Performance** dari [https://github.com/blackoutnextproject/Blackout-X-Perf/releases/tag/0.3.0](https://github.com/blackoutnextproject).
 2.  Buka aplikasi Magisk Manager atau KernelSU Manager.
 3.  Pergi ke bagian **Modul** dan pilih **Instal dari penyimpanan**.
 4.  Pilih file `.zip` dari modul yang sudah kamu unduh.
@@ -49,4 +48,3 @@ Setelah modul terinstal, kamu tidak perlu melakukan apa pun. **Blackout-X-Perfor
 ### 📜 Lisensi
 
 Modul ini dirilis di bawah lisensi [MIT License](https://opensource.org/licenses/MIT).
-](https://raw.githubusercontent.com/blackoutnextproject/Blackout-Project-Banner/main/Blackout-banner.jpg)
