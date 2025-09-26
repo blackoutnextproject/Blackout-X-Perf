@@ -4,7 +4,7 @@
 
 ### 📄 Deskripsi
 
-**Blackout-X-Performance** adalah Module Magisk/KernelSU yang dirancang untuk mengoptimalkan performa perangkat Android secara otomatis. Modul ini mendeteksi saat sebuah game sedang berjalan dan mengaktifkan serangkaian *tweak* performa agresif. Saat game ditutup, semua pengaturan akan dikembalikan ke kondisi normal untuk menghemat baterai dan menjaga stabilitas sistem.
+**Blackout-X-Performance** adalah modul Magisk/KernelSU yang dirancang untuk mengoptimalkan performa perangkat Android secara otomatis. Modul ini mendeteksi saat sebuah game sedang berjalan dan mengaktifkan serangkaian *tweak* performa agresif. Saat game ditutup, semua pengaturan akan dikembalikan ke kondisi normal untuk menghemat baterai dan menjaga stabilitas sistem.
 
 ---
 
@@ -12,8 +12,13 @@
 
 * **Deteksi Game Otomatis**: Secara cerdas mendeteksi game yang sedang berjalan menggunakan Game Manager Service Android. Tidak perlu lagi memasukkan nama *package* secara manual.
 * **Optimalisasi Grafis (SkiaVulkan)**: Mengubah *renderer* grafis ke **SkiaVulkan** untuk potensi peningkatan FPS dan responsivitas UI.
-* **Downscale Resolusi**: Menurunkan resolusi layar saat bermain game untuk mengurangi beban kerja GPU, yang menghasilkan *frame rate* yang lebih stabil dan tinggi.
-* **Mode Seimbang**: Mengembalikan semua pengaturan ke mode seimbang (`bfq` I/O, resolusi normal) setelah game ditutup.
+* **Downscale Resolusi Cerdas**: Menurunkan resolusi layar ke **1440x720 (atau sejenisnya)**. Fitur ini **hanya menargetkan aplikasi game yang aktif**, menjaga UI sistem tetap pada resolusi normal.
+* **Tweak Latensi Ekstrem**:
+    * **Vsync Timing**: Mengatur *timing* Vsync untuk meminimalkan *input latency* antara sentuhan dan gambar di layar.
+    * **VM/I/O Buffer**: Menurunkan `dirty_ratio` untuk mengurangi *stutter* yang disebabkan oleh operasi I/O tertunda.
+    * **Network Latency**: Mengaktifkan `tcp_low_latency` untuk prioritas *ping* stabil saat game *online*.
+* **Mode Seimbang**: Mengembalikan semua pengaturan *tweak* ke kondisi default (termasuk Vsync, VM, dan *Network*) setelah game ditutup.
+* **Informasi Lengkap**: Menampilkan informasi detail perangkat (termasuk **Codename** dan **Jenis ROM**) saat instalasi.
 * **Kompatibilitas Luas**: Mendukung Magisk, Kitsune, KernelSU, KernelSUNext, dan Apatch.
 
 ---
