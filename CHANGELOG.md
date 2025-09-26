@@ -1,4 +1,20 @@
-Deteksi Game Otomatis: Secara cerdas mendeteksi game yang sedang berjalan menggunakan Game Manager Service Android. Tidak perlu lagi memasukkan nama package secara manual.
-Optimalisasi Grafis (SkiaVulkan): Mengubah renderer grafis ke SkiaVulkan untuk potensi peningkatan FPS dan responsivitas UI.
-Downscale Resolusi: Menurunkan resolusi layar saat bermain game untuk mengurangi beban kerja GPU, yang menghasilkan frame rate yang lebih stabil dan tinggi.
-Mode Seimbang: Mengembalikan semua pengaturan ke mode seimbang (bfq I/O, resolusi normal) setelah game ditutup.
+## v0.3.5
+
+### ✨ Fitur dan Peningkatan Utama
+
+* **Peningkatan Performa Inti**:
+    * **Optimalisasi Vsync Agresif**: Menghilangkan *input latency* dengan mengatur fase *timing* Vsync ke nilai minimal pada SurfaceFlinger (untuk *early/late app duration* dan *sf duration*).
+    * **Tweak VM**: Mengurangi `dirty_ratio` dan `dirty_background_ratio` (10/5) untuk memaksa data *buffer* ditulis lebih cepat ke disk, meminimalkan *stutter* mendadak.
+    * **Tweak Jaringan Latensi Rendah**: Mengaktifkan `tcp_low_latency=1` untuk memprioritaskan latensi daripada *throughput*, sangat penting untuk game *online*.
+    * **Tweak CPU Responsiveness**: Mengaktifkan `sem_enhanced_cpu_responsiveness` saat *Game Mode* aktif untuk responsivitas CPU yang lebih cepat.
+
+* **Peningkatan Fitur Downscale**:
+    * **Targeting Aplikasi**: Fitur *downscale* (1440x720) kini **hanya menargetkan aplikasi game yang aktif** menggunakan `wm size -p [package_name]`. Ini mencegah distorsi pada UI sistem.
+
+* **Peningkatan Stabilitas dan Pengembalian**:
+    * **Pembersihan Proses**: Menambahkan `pkill -f` yang lebih ketat saat transisi mode untuk menghentikan proses *tweak* lama.
+    * **Pengembalian Vsync Lengkap**: Semua *tweak* Vsync dan *timing* yang baru ditambahkan dikembalikan ke nilai default di **Mode Seimbang**.
+
+* **Peningkatan Instalasi**:
+    * **Deteksi Perangkat Komprehensif**: Menambahkan deteksi otomatis **Codename** dan **Jenis ROM** (MIUI, HyperOS, ColorOS, dll.) saat *flashing*.
+    * 
