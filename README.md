@@ -25,7 +25,7 @@
 
 ### 🚀 Cara Menginstal
 
-1.  Unduh modul **Blackout-X-Performance** dari [https://github.com/blackoutnextproject/Blackout-X-Perf](https://github.com/blackoutnextproject/Blackout-X-Perf/releases/tag/0.3.0).
+1.  Unduh modul **Blackout-X-Performance** dari [https://github.com/blackoutnextproject/Blackout-X-Perf](https://github.com/blackoutnextproject/Blackout-X-Perf/releases).
 2.  Buka aplikasi Magisk Manager atau KernelSU Manager.
 3.  Pergi ke bagian **Modul** dan pilih **Instal dari penyimpanan**.
 4.  Pilih file `.zip` dari modul yang sudah kamu unduh.
@@ -47,6 +47,7 @@ Setelah modul terinstal, kamu tidak perlu melakukan apa pun. **Blackout-X-Perfor
 
 * **Risiko *Tweak***: Modul ini menggunakan *tweak* yang bersifat agresif dan mungkin tidak cocok untuk semua perangkat. Beberapa fitur, seperti **SkiaVulkan**, bergantung pada dukungan *driver* perangkatmu.
 * **Laporkan *Bug***: Jika kamu mengalami masalah (misalnya, *glitch* grafis atau aplikasi *crash*), silakan laporkan masalah tersebut di halaman GitHub proyek ini.
+* **Only HyperOs & MIUI***
 
 ---
 
