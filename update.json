@@ -1,6 +1,13 @@
 {
   "version": "0.3.5 [INCURSION] 〄 [Multivers]",
   "versionCode": "035",
-  "zipUrl": "https://github.com/blackoutnextproject/Blackout-X-Perf/releases/download/0.3.0/Blackout-X-Perf-Release.Multivers.zip",
+  "zipUrl": "https://github.com/blackoutnextproject/Blackout-X-Perf/releases/download/0.3.5/Blackout-X-Perf-Release.Multivers.zip",
+  "changelog": "https://raw.githubusercontent.com/blackoutnextproject/Blackout-X-Perf/refs/heads/main/CHANGELOG.md"
+}
+
+{
+  "version": "0.2.5 [INCURSION] 〄 [HOs]",
+  "versionCode": "025",
+  "zipUrl": "https://github.com/blackoutnextproject/Blackout-X-Perf/releases/download/0.2.5/Blackout-X-HOs-.-MIUI-Pra-release.zip",
   "changelog": "https://raw.githubusercontent.com/blackoutnextproject/Blackout-X-Perf/refs/heads/main/CHANGELOG.md"
 }
