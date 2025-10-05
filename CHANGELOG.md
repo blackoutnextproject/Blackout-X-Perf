@@ -1,4 +1,4 @@
-## v0.2.5 [INCURSION] 〄 [HOs]
+## v0.3.5
 
 ### ✨ Fitur dan Peningkatan Utama
 
@@ -8,9 +8,20 @@
     * **Tweak Jaringan Latensi Rendah**: Mengaktifkan `tcp_low_latency=1` untuk memprioritaskan latensi daripada *throughput*, sangat penting untuk game *online*.
     * **Tweak CPU Responsiveness**: Mengaktifkan `sem_enhanced_cpu_responsiveness` saat *Game Mode* aktif untuk responsivitas CPU yang lebih cepat.
 
+* **Peningkatan Fitur Downscale**:
+    * **Targeting Aplikasi**: Fitur *downscale* (1440x720) kini **hanya menargetkan aplikasi game yang aktif** menggunakan `wm size -p [package_name]`. Ini mencegah distorsi pada UI sistem.
+
 * **Peningkatan Stabilitas dan Pengembalian**:
     * **Pembersihan Proses**: Menambahkan `pkill -f` yang lebih ketat saat transisi mode untuk menghentikan proses *tweak* lama.
     * **Pengembalian Vsync Lengkap**: Semua *tweak* Vsync dan *timing* yang baru ditambahkan dikembalikan ke nilai default di **Mode Seimbang**.
+
+* **Peningkatan Instalasi**:
+    * **Deteksi Perangkat Komprehensif**: Menambahkan deteksi otomatis **Codename** dan **Jenis ROM** (MIUI, HyperOS, ColorOS, dll.) saat *flashing*.
+
+
+## v0.2.5 [INCURSION] 〄 [HOs]
+
+### ✨ Fitur dan Peningkatan Utama
 
 * **Peningkatan Instalasi**:
     * **Deteksi Perangkat Komprehensif**: Menambahkan deteksi otomatis **Codename** dan **Jenis ROM** (MIUI & HyperOS) saat *flashing*.
